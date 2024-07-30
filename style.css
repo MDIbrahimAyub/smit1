@@ -1,0 +1,639 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    padding-left: 50px;
+}
+
+.logo img {
+    width: 10vw;
+}
+
+.nav {
+    padding-right: 50px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li {
+    padding: 0px 10px;
+}
+
+.nav ul li a {
+    font-size: 1vw;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav ul li a:hover {
+    color: #BFC500;
+    transition: 0.30s ease-in-out;
+}
+
+.banner {
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner1 {
+    width: 85%;
+    height: 97%;
+    border-radius: 20px;
+    background-image: url(https://shariq512000.github.io/clone-3/images/bayc-mutant-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    width: 100%;
+    height: 80vh;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.c-t {
+    padding-left: 60px;
+    color: #fff;
+    width: 90%;
+}
+
+.c-t h1 {
+    font-size: 3vw;
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    padding-bottom: 20px;
+    line-height: 50px;
+}
+
+.c-t p {
+    font-size: 1.2vw;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+}
+
+.c1-t {
+    width: 25%;
+    height: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 20px;
+    justify-content: center;
+}
+
+.c-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding-left: 20px;
+}
+
+.about {
+    width: 100%;
+    height: 65vh;
+    background-color: #000;
+    color: #fff;
+}
+
+.about h1 {
+    font-size: 2.2vw;
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    color: #BFC500;
+    padding-left: 80px;
+    padding-bottom: 30px;
+}
+
+.about p {
+    font-size: 1.2vw;
+    font-family: "poppins", sans-serif;
+    font-weight: 300;
+    padding-left: 80px;
+}
+
+.a-t {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.a-t1 {
+    width: 50%;
+    height: 100%;
+    padding-top: 50px;
+}
+
+.a-t1 h2 {
+    padding-left: 80px;
+    font-size: 1.2vw;
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+}
+
+.a-t1 p {
+    font-size: 1vw;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+}
+
+.buy {
+    width: 100%;
+    height: 16vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buy1 {
+    width: 80%;
+    height: 100%;
+    background-color: #BFC500;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.b-t h3 {
+    color: #000;
+    font-family: "poppins", sans-serif;
+}
+
+.b-t a {
+    padding: 24px 20px;
+    font-size: 1.2vw;
+    font-family: "poppins", sans-serif;
+    text-decoration: none;
+    color: #BFC500;
+    border-radius: 10px;
+    background-color: #000;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.line1 {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+
+.specs {
+    width: 100%;
+    height: 80vh;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.specs1 {
+    width: 50%;
+    height: 100%;
+}
+
+.specs1 h1 {
+    padding-top: 100px;
+    padding-left: 80px;
+    font-size: 3vw;
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    padding-bottom: 20px;
+    line-height: 50px;
+}
+
+.specs1 p {
+    font-size: 1.2vw;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+.specs1 img {
+    width: 80%;
+    height: 80%;
+    padding-left: 40px;
+    padding-top: 70px;
+    object-fit: contain;
+}
+
+.card {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+}
+
+.c-t2 {
+    padding-top: 60px;
+    color: #fff;
+    padding-left: 100px;
+}
+
+.c-t2 h1 {
+    font-size: 3vw;
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    padding-bottom: 20px;
+    line-height: 50px;
+}
+
+.c-t2 p {
+    font-size: 1.2vw;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+}
+
+.card1 {
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card2 {
+    width: 16%;
+    height: 60%;
+}
+
+.card2 img {
+    width: 50%;
+    height: 60%;
+    object-fit: contain;
+}
+
+.card2 h1 {
+    width: 70%;
+    font-size: 1vw;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.bath {
+    width: 100%;
+    height: 70vh;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bath1 {
+    width: 50%;
+    height: 100%;
+    color: #fff;
+}
+
+.bath1 h1 {
+    padding-top: 15px;
+    padding-left: 80px;
+    font-size: 3vw;
+    font-family: "poppins", sans-serif;
+    font-weight: 700;
+    padding-bottom: 20px;
+    line-height: 50px;
+}
+
+.bath1 p {
+    font-size: 1.2vw;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    padding-left: 80px;
+    padding-top: 20px;
+}
+
+.bath1 img {
+    width: 100%;
+    height: 90%;
+    object-fit: contain;
+}
+
+.l-t {
+    width: 100%;
+    height: 250px;
+    background-color: #000;
+    color: #fff;
+}
+
+.l-t h1 {
+    padding: 50px;
+    font-family: "poppins", sans-serif;
+}
+
+.l-t p {
+    font-size: 1.2vw;
+    font-family: "poppins", sans-serif;
+    font-weight: 200;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+.last {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.last1 {
+    width: 10%;
+    height: 100%;
+    color: #fff;
+}
+
+.last1 h1 {
+    font-family: "poppins", sans-serif;
+    font-size: 2vw;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-top: 30px;
+    color: #BFC500;
+}
+
+.last2 {
+    width: 40%;
+    height: 100%;
+    color: #fff;
+}
+
+.last2 p {
+    font-family: "poppins", sans-serif;
+    font-size: 1vw;
+    font-weight: 500;
+    padding-left: 30px;
+    padding-top: 28px;
+}
+
+.last3 {
+    width: 50%;
+    height: 100%;
+    color: #fff;
+}
+
+.l-img img {
+    object-fit: contain;
+    width: 70%;
+    height: 60%;
+    margin-left: 100px;
+    margin-top: 30px;
+    background-color: #BFC500;
+}
+
+@media screen and (max-width:900px) {
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 100px;
+        justify-content: center;
+    }
+
+    .logo {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        padding: 0px;
+        justify-content: center;
+    }
+
+    .logo img {
+        width: 200px;
+    }
+
+    .nav {
+        padding: 0px;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav ul li a {
+        font-size: 12px;
+    }
+
+    .banner1 {
+        width: 80%;
+        height: 80%;
+    }
+
+    .container {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container1 {
+        padding: 0px;
+        width: 100%;
+        height: 50%;
+    }
+
+    .c-img {
+        width: 100%;
+        height: 50%;
+    }
+
+    .c-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .c1-t {
+        width: 20%;
+        height: 50%;
+    }
+
+    .about {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .about h1 {
+        padding-top: 30px;
+        font-size: 25px;
+    }
+
+    .about p {
+        font-size: 14px;
+    }
+
+    .a-t1 h2 {
+        font-size: 10px;
+    }
+
+    .a-t1 p {
+        font-size: 8px;
+    }
+
+    .buy {
+        width: 100%;
+        height: 10vh;
+    }
+
+    .b-t h3 {
+        font-size: 20px;
+    }
+
+    .b-t p {
+        font-size: 8px;
+    }
+
+    .b-t a {
+        font-size: 10px;
+    }
+
+    .buy1 {
+        width: 100%;
+        border-radius: 2px;
+    }
+    .specs {
+        width: 100%;
+        height: 65vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .specs1 {
+        width: 100%;
+        height: 40%;
+    }
+
+    .specs1 h1 {
+        font-size: 30px;
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+    .specs1 p{
+        padding-left: 30px;
+        font-size: 12px;
+    }
+    .card{
+        width: 100%;
+        height: 70vh;
+    }
+    .c-t2{
+        padding-left: 30px;
+    }
+    .c-t2 h1{
+        font-size: 25px;
+    }
+    .c-t2 p{
+        font-size: 12px;
+    }
+    .card1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .card2{
+        width: 15%;
+        height: 40%;
+    }
+    .card2 img{
+        width: 80%;
+    }
+    .card2 h1{
+        font-size: 12px;
+    }
+    .bath{
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .bath1{
+        width: 100%;
+        height: 50%;
+    }
+    .bath1 h1{
+        padding-left: 30px;
+        font-size: 25px;
+    }
+    .bath1 p{
+        padding-left: 30px;
+        font-size: 12px;
+    }
+    .l-t p{
+        font-size: 12px;
+    }
+    .last{
+        width: 100%;
+        height: 50vh;
+    }
+    .last1{
+        width: 50%;
+        height: 30%;
+    }
+    
+    .last2{
+        width: 50%;
+        height: 30%;
+        display: none;
+    }
+    .last3{
+        width: 100%;
+        height: 30%;
+    }
+}
